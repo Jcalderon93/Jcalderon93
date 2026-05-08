@@ -1,10 +1,8 @@
 
-# ## Hola, soy Johan Sebastian 👋
+# Hola, soy Johan Sebastian 👋
 
 :computer: **AI Solutions Architecture Scholar & Student**
-
 :robot: **Especializándome en LangChain, RAG y Agentes de IA (Meta 2027)**
-
 :family: **¡El papá más feliz del mundo!**
 
 ---
