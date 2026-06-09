@@ -24,6 +24,8 @@
 
 
 ### 📊 Mi Actividad en GitHub
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:last_update-->
 
 ```readme-activity-graph
 # Este bloque renderiza tu gráfico dinámico de actividad.
