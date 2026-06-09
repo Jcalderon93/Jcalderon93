@@ -23,8 +23,7 @@
 
 ---
 
-### 📊 Mi Actividad en GitHub
+### ⚡ Recent Activity---
 
 ```readme-activity-graph
 # Este bloque renderiza tu gráfico dinámico de actividad.
-
