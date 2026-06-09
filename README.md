@@ -22,11 +22,10 @@
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jcalderon93)
 
 ---
+### :zap: Recent Activity
+!--START_SECTION:activity--
+!--END_SECTION:activity--
 
-### 📊 Mi Actividad en GitHub
-
-```readme-activity-graph
-# Este bloque renderiza tu gráfico dinámico de actividad.
 Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
 
 "Buscando soluciones eficientes y de código abierto para el futuro de la IA."
