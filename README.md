@@ -23,7 +23,6 @@
 
 ---
 
-### ⚡ Recent Activity---
+### ⚡ Recent Activity```
 
-```readme-activity-graph
-# Este bloque renderiza tu gráfico dinámico de actividad.
+Guarda los cambios en el archivo YML, ve a la pestaña **Actions** y lánzalo de nuevo manualmente. Ahora que la ruta del repositorio de la acción está bien escrita, GitHub la descargará sin problemas y completará el proceso en verde.
