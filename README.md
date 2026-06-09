@@ -24,12 +24,12 @@
 
 
 ### 📊 Mi Actividad en GitHub
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:last_update-->
-
 ```readme-activity-graph
 # Este bloque renderiza tu gráfico dinámico de actividad.
 # Asegúrate de no borrar las tres comillas invertidas de arriba y abajo.
+<!--RECENT_ACTIVITY:start-->
+
+<!--RECENT_ACTIVITY:last_update-->
 
 Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
 
