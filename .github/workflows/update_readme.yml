@@ -1,9 +1,11 @@
+```yaml
 name: Update GitHub Activity
 
 on:
   schedule:
+    # Se ejecuta automáticamente cada hora
     - cron: '0 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permite que lo arranques manualmente
 
 jobs:
   update-readme:
@@ -14,10 +16,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy GitHub Activity README
-        uses: gautamkrishnar/user-activity-readme@v1
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          ACTIVITY_START_TAG: ""
-          ACTIVITY_END_TAG: ""
           MAX_LINES: 5
