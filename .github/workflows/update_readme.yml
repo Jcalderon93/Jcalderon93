@@ -1,22 +1,23 @@
-name: Update GitHub Activity
-
+name: Update README
 on:
   schedule:
-    # Se ejecuta automáticamente cada hora
-    - cron: '0 * * * *'
-  workflow_dispatch: # Permite que lo arranques manualmente
-
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 jobs:
-  update-readme:
-    name: Update Activity Log
+  build:
+    name: Update this repo's README with recent activity
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    permissions:
+      contents: write
 
-      - name: Deploy GitHub Activity README
-        uses: jamesgeorge007/github-activity-readme@master
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          MAX_LINES: 5
+          COMMIT_MSG: "Update recent activity"
+          MAX_LINES: 10
+          COMMIT_NAME: GitHub Activity Readme
+          COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
+          FILTER_EVENTS: PushEvent,CreateEvent,IssueCommentEvent,IssuesEvent,PullRequestEvent,ReleaseEvent,WatchEvent,ForkEvent
