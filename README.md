@@ -1,4 +1,3 @@
-
 # Hola, soy Johan Sebastian👋
 
 :computer: **AI Solutions Architecture Scholar & Student**
@@ -22,17 +21,10 @@
 [![Gmail](https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jcalderonreyes93@gmail.com)
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jcalderon93)
 
-
-
-
-Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
-
-
 ---
-
-> "Buscando soluciones eficientes y de código abierto para el futuro de la IA."
 
 ### 📊 Mi Actividad en GitHub
 
 ```readme-activity-graph
 # Este bloque renderiza tu gráfico dinámico de actividad.
+
