@@ -23,8 +23,8 @@
 
 ---
 ### :zap: Recent Activity
-!--START_SECTION:activity--
-!--END_SECTION:activity--
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
 
