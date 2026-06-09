@@ -23,6 +23,12 @@
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jcalderon93)
 
 
+### 📊 Mi Actividad en GitHub
+
+```readme-activity-graph
+# Este bloque renderiza tu gráfico dinámico de actividad.
+# Asegúrate de no borrar las tres comillas invertidas de arriba y abajo.
+
 Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
 
 
