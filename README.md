@@ -23,6 +23,10 @@
 
 ---
 
-### ⚡ Recent Activity```
+### 📊 Mi Actividad en GitHub
 
-Guarda los cambios en el archivo YML, ve a la pestaña **Actions** y lánzalo de nuevo manualmente. Ahora que la ruta del repositorio de la acción está bien escrita, GitHub la descargará sin problemas y completará el proceso en verde.
+```readme-activity-graph
+# Este bloque renderiza tu gráfico dinámico de actividad.
+Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
+
+"Buscando soluciones eficientes y de código abierto para el futuro de la IA."
