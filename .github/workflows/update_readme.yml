@@ -2,9 +2,8 @@ name: Update GitHub Activity
 
 on:
   schedule:
-    # Se ejecuta cada hora de forma automática
     - cron: '0 * * * *'
-  workflow_dispatch: # Te permite ejecutarlo manualmente desde la pestaña Actions
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -13,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          ref: main # <--- ESTO OBLIGA AL BOT A LEER TU RAMA MAIN
 
       - name: Deploy GitHub Activity README
         uses: jamesgeorge007/github-activity-readme@master
@@ -20,4 +21,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           MAX_LINES: 5
-          BRANCH: "main" # <--- ESTA ES LA LÍNEA QUE SOLUCIONA EL ERROR
