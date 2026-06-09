@@ -2,8 +2,9 @@ name: Update GitHub Activity
 
 on:
   schedule:
+    # Se ejecuta automáticamente cada hora
     - cron: '0 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permite que lo arranques tú manualmente
 
 jobs:
   update-readme:
@@ -12,12 +13,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          ref: main # <--- ESTO OBLIGA AL BOT A LEER TU RAMA MAIN
 
       - name: Deploy GitHub Activity README
-        uses: jamesgeorge007/github-activity-readme@master
+        uses: gautamkrishnar/user-activity-readme@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          # Vincula directamente tus etiquetas pegadas en una sola línea
+          ACTIVITY_START_TAG: ""
+          ACTIVITY_END_TAG: ""
           MAX_LINES: 5
