@@ -2,9 +2,8 @@ name: Update GitHub Activity
 
 on:
   schedule:
-    # Se ejecuta automáticamente cada hora
     - cron: '0 * * * *'
-  workflow_dispatch: # Permite que lo arranques tú manualmente
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -19,7 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # Vincula directamente tus etiquetas pegadas en una sola línea
           ACTIVITY_START_TAG: ""
           ACTIVITY_END_TAG: ""
           MAX_LINES: 5
