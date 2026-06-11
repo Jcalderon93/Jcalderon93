@@ -24,6 +24,8 @@
 ---
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
+1. 🔒 Closed issue [#1](https://github.com/Jcalderon93/miCuartoRepo/issues/1) in [Jcalderon93/miCuartoRepo](https://github.com/Jcalderon93/miCuartoRepo)
+2. ❗ Opened issue [#1](https://github.com/Jcalderon93/miCuartoRepo/issues/1) in [Jcalderon93/miCuartoRepo](https://github.com/Jcalderon93/miCuartoRepo)
 <!--END_SECTION:activity-->
 
 Si estás interesado en soluciones de Inteligencia Artificial de código abierto o quieres charlar sobre arquitectura de software, aquí me encuentras:
